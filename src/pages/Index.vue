@@ -1,12 +1,5 @@
 <template>
   <Layout>
-    <Toolbox
-      @update-display="updateDisplay"
-      @filter-countries="filterCountries"
-      @filter-by="updateFilter"
-      @group-by="updateGrouping"
-      :display="display"
-    />
     <Countries
       v-if="!groupBy || groupBy === 'None'"
       :display="display"
@@ -35,7 +28,7 @@ import groupCountries from '@/utils/group-countries'; // Util function to clean 
 
 export default {
   metaInfo: {
-    title: 'All the Countries in the World'
+    title: 'Dünyadaki Bütün Ülkeler'
   },
   computed: {
     allCountries() {

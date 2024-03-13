@@ -2,7 +2,7 @@
 //Docs: https://gridsome.org/docs/config
 
 module.exports = {
-  siteName: 'All the Countries in the World!',
+  siteName: 'Dünyadaki Bütün Ülkeler!',
   plugins: [
     {
       use: 'gridsome-plugin-plausible-analytics',

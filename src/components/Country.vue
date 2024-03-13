@@ -13,15 +13,15 @@
       </div>
     <transition name="slide-fade">
     <div v-if="detailsVisible" class="additional-content">
-      <p><b>Region: </b> {{region}} ({{subregion}})</p>
-      <p><b>Languages: </b><span>{{makeTextList(languages)}}</span></p>
-      <p><b>Currencies: </b><span>{{makeTextList(currencies)}}</span></p>
-      <p><b>Domain Extension: </b><span>{{makeTextList(tld)}}</span></p>
-      <p><b>Calling Codes: </b><span>{{makeTextList(callingCodes)}}</span></p>
-      <p><b>Country Code (ISO 3166-1): </b><span>{{isoCodes.cca3}} / {{isoCodes.ccn3}}</span></p>
-      <p><b>Land Size: </b><span>{{area}} km²</span></p>
-      <p><b>Land Locked?: </b><span>{{landlocked? 'Yes' : 'No'}}</span></p>
-      <p><b>UN Member: </b><span>{{unMember? 'Yes' : 'No'}}</span></p>
+      <p><b>Kıta: </b> {{region}} ({{subregion}})</p>
+      <p><b>Diller: </b><span>{{makeTextList(languages)}}</span></p>
+      <p><b>Para Birimi: </b><span>{{makeTextList(currencies)}}</span></p>
+      <p><b>Domain Uzantısı: </b><span>{{makeTextList(tld)}}</span></p>
+      <p><b>Telefon Kodu: </b><span>{{makeTextList(callingCodes)}}</span></p>
+      <p><b>Ülke Kodu (ISO 3166-1): </b><span>{{isoCodes.cca3}} / {{isoCodes.ccn3}}</span></p>
+      <p><b>Yüz ölçümü: </b><span>{{area}} km²</span></p>
+      <p><b>Bölge Kilitli mi?: </b><span>{{landlocked? 'Evet' : 'Hayır'}}</span></p>
+      <p><b>Birleşmiş Milletler Üyesi mi?: </b><span>{{unMember? 'Evet' : 'Hayır'}}</span></p>
     </div>
     </transition>
   </div>

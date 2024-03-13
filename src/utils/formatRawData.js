@@ -20,9 +20,9 @@ const search = (country, searchTerm) => {
 };
 
 const filter = (country, filterOption) => {
-  if (filterOption === 'All') return true;
-  if (filterOption === 'Countries Only' && country.independent) return true;
-  if (filterOption === 'Territories Only' && !country.independent) return true;
+  if (filterOption === 'Hepsi') return true;
+  if (filterOption === 'Sadece Ülkeler' && country.independent) return true;
+  if (filterOption === 'Sadece Bölgeler' && !country.independent) return true;
   return false;
 };
 

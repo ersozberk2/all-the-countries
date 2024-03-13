@@ -1,7 +1,7 @@
 const fancyUpdatingTitle = (flags) => {
   const numEmojis = 5; // The number of flags to show in title
   const timeInterval = 450; // Refresh time in ms
-  const titleText = 'World Countries'; // Text to show alongside flags
+  const titleText = 'Dünya Ülkeleri'; // Text to show alongside flags
   let titleFlags = '';
   let counter = 0;
   setInterval(() => {
